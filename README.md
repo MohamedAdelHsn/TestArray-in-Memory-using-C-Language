@@ -9,9 +9,12 @@ For example  Output :
    Address of arr 3  : 012FFA50  ,  Convert to decimal : 19921488             
    Address of arr 4  : 012FFA54  ,  Convert to decimal : 19921492 .  
    
-if we subtract  Address of arr 1 - Address of arr 0  = 19921480 - 19921476 = 4 byte(the size of int data ).
-etc..
+if we subtract  Address of arr 1 - Address of arr 0  = 19921480 - 19921476 = 4 byte(the size of int data ) , etc..
+    
+
+
+![TestArray](https://user-images.githubusercontent.com/58120325/69501528-7a0f4000-0f0e-11ea-9aa9-089c7ccfe95e.png)
+
          
       
       
-     ![TestArray](https://user-images.githubusercontent.com/58120325/69501528-7a0f4000-0f0e-11ea-9aa9-089c7ccfe95e.png)
