@@ -6,11 +6,12 @@
 #include<string>
 using namespace std;
 
-// this program will prove that Array sorted in memory sequential and get the size of data type 
+// This program will prove that Array sorted in memory sequential and get the size of data type 
 
 int main()
 {
-	int arr[5] = {1,2,3,4,5}; 
+    int arr[5] = {1,2,3,4,5}; 
+	
 	/* the main equation that will define the address of any index at array is 
 	/[(header("the address of the first element in array"))+ index * sizeof data type].
 
@@ -20,15 +21,17 @@ int main()
 	 we will prove that using pointer.
 
 	*/
-	int size = sizeof(arr) / sizeof(arr[0]);
-	int *ptr;   // pointer to iterate the addresses of array    
+	
+   int size = sizeof(arr) / sizeof(arr[0]);
+	
+   int *ptr;   // pointer to iterate the addresses of array    
 
    for(int i = 0; i< size; i++)
-   {
-      ptr = &arr[i];
-      cout<<"Address of arr "<<i<<"  : "<<ptr<<endl;
+    {
+       ptr = &arr[i];
+       cout<<"Address of arr "<<i<<"  : "<<ptr<<endl;
    
-   }
+    }
 
    // the addresses will be changed every runtime process 
 
